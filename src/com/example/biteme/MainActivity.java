@@ -69,7 +69,7 @@ public class MainActivity extends ActionBarActivity {
 
 			// including some animation
 			// Move the camera instantly to Tucson with a zoom of 15.
-			map.moveCamera(CameraUpdateFactory.newLatLngZoom(TUCSON, 15));
+//			map.moveCamera(CameraUpdateFactory.newLatLngZoom(TUCSON, 15));
 
 			// Zoom in, animating the camera.
 			map.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);
