@@ -3,6 +3,7 @@ package com.example.biteme;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.app.Activity;
 import android.location.Location;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,12 +21,11 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
 import com.example.biteme.R;
 
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 	
 	static final LatLng TUCSON = new LatLng(32.221743, -110.926479);
 
