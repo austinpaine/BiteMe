@@ -26,6 +26,8 @@ import com.example.biteme.R;
 
 
 public class MainActivity extends ActionBarActivity {
+	
+	static final LatLng TUCSON = new LatLng(32.221743, -110.926479);
 
 	private GoogleMap map;
 	
@@ -69,7 +71,7 @@ public class MainActivity extends ActionBarActivity {
 
 			// including some animation
 			// Move the camera instantly to Tucson with a zoom of 15.
-//			map.moveCamera(CameraUpdateFactory.newLatLngZoom(TUCSON, 15));
+			map.moveCamera(CameraUpdateFactory.newLatLngZoom(TUCSON, 15));
 
 			// Zoom in, animating the camera.
 			map.animateCamera(CameraUpdateFactory.zoomTo(10), 2000, null);
